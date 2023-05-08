@@ -11,4 +11,4 @@ annotation is removed again.
 
 
 [the upstream CAPI support for pausing annotations]: https://cluster-api.sigs.k8s.io/developer/providers/v1alpha2-to-v1alpha3.html#support-the-clusterx-k8siopaused-annotation-and-clusterspecpaused-field
-[the controller configuration]: https://pkg.go.dev/github.com/giantswarm/operatorkit@v1.2.0/controller?tab=doc#Config
+[the controller configuration]: https://pkg.go.dev/github.com/LeXFReeMan/operatorkit@v1.2.0/controller?tab=doc#Config

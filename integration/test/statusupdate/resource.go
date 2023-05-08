@@ -9,15 +9,15 @@ import (
 	"testing"
 
 	"github.com/giantswarm/backoff"
-	"github.com/giantswarm/k8sclient/v7/pkg/k8sclient"
+	"github.com/LeXFReeMan/k8sclient/v7/pkg/k8sclient"
 	"github.com/giantswarm/microerror"
 	"github.com/giantswarm/micrologger"
 	apiextensionsv1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	v1 "github.com/giantswarm/operatorkit/v7/api/v1"
-	"github.com/giantswarm/operatorkit/v7/integration/env"
+	v1 "github.com/LeXFReeMan/operatorkit/v7/api/v1"
+	"github.com/LeXFReeMan/operatorkit/v7/integration/env"
 )
 
 const (

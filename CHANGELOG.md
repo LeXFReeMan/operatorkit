@@ -33,7 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Upgrade github.com/giantswarm/exporterkit v0.2.1 to v1.0.0
 - Upgrade github.com/giantswarm/microerror v0.3.0 to v0.4.0
 - Upgrade github.com/giantswarm/micrologger v0.5.0 to v0.6.0
-- Upgrade github.com/giantswarm/k8sclient v6.0.0 to v7.0.0
+- Upgrade github.com/LeXFReeMan/k8sclient v6.0.0 to v7.0.0
 
 ## [6.1.0] - 2021-12-17
 
@@ -60,7 +60,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Replaced `github.com/giantswarm/operatorkit/v4/pkg/controller/internal/selector.Selector` with
+- Replaced `github.com/LeXFReeMan/operatorkit/v4/pkg/controller/internal/selector.Selector` with
   `k8s.io/apimachinery/pkg/labels.Selector` in `controller.Config` to streamline the usage of server-side filtering.
 
 ## [4.3.1] - 2021-04-06
@@ -213,28 +213,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]: https://github.com/giantswarm/operatorkit/compare/v7.1.0...HEAD
-[7.1.0]: https://github.com/giantswarm/operatorkit/compare/v7.0.1...v7.1.0
-[7.0.1]: https://github.com/giantswarm/operatorkit/compare/v7.0.0...v7.0.1
-[7.0.0]: https://github.com/giantswarm/operatorkit/compare/v6.1.0...v7.0.0
-[6.1.0]: https://github.com/giantswarm/operatorkit/compare/v6.0.0...v6.1.0
-[6.0.0]: https://github.com/giantswarm/operatorkit/compare/v5.0.0...v6.0.0
-[5.0.0]: https://github.com/giantswarm/operatorkit/compare/v4.3.1...v5.0.0
-[4.3.1]: https://github.com/giantswarm/operatorkit/compare/v4.3.0...v4.3.1
-[4.3.0]: https://github.com/giantswarm/operatorkit/compare/v4.2.0...v4.3.0
-[4.2.0]: https://github.com/giantswarm/operatorkit/compare/v4.1.0...v4.2.0
-[4.1.0]: https://github.com/giantswarm/operatorkit/compare/v4.0.0...v4.1.0
-[4.0.0]: https://github.com/giantswarm/operatorkit/compare/v3.0.0...v4.0.0
-[3.0.0]: https://github.com/giantswarm/operatorkit/compare/v2.0.2...v3.0.0
-[2.0.2]: https://github.com/giantswarm/operatorkit/compare/v2.0.1...v2.0.2
-[2.0.1]: https://github.com/giantswarm/operatorkit/compare/v2.0.0...v2.0.1
-[2.0.0]: https://github.com/giantswarm/operatorkit/compare/v1.2.0...v2.0.0
-[1.2.0]: https://github.com/giantswarm/operatorkit/compare/v1.1.0...v1.2.0
-[1.1.0]: https://github.com/giantswarm/operatorkit/compare/v1.0.2...v1.1.0
-[1.0.2]: https://github.com/giantswarm/operatorkit/compare/v1.0.1...v1.0.2
-[1.0.1]: https://github.com/giantswarm/operatorkit/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/giantswarm/operatorkit/compare/v0.2.1...v1.0.0
-[0.2.1]: https://github.com/giantswarm/operatorkit/compare/v0.2.0...v0.2.1
-[0.2.0]: https://github.com/giantswarm/operatorkit/compare/v0.1.0...v0.2.0
+[Unreleased]: https://github.com/LeXFReeMan/operatorkit/compare/v7.1.0...HEAD
+[7.1.0]: https://github.com/LeXFReeMan/operatorkit/compare/v7.0.1...v7.1.0
+[7.0.1]: https://github.com/LeXFReeMan/operatorkit/compare/v7.0.0...v7.0.1
+[7.0.0]: https://github.com/LeXFReeMan/operatorkit/compare/v6.1.0...v7.0.0
+[6.1.0]: https://github.com/LeXFReeMan/operatorkit/compare/v6.0.0...v6.1.0
+[6.0.0]: https://github.com/LeXFReeMan/operatorkit/compare/v5.0.0...v6.0.0
+[5.0.0]: https://github.com/LeXFReeMan/operatorkit/compare/v4.3.1...v5.0.0
+[4.3.1]: https://github.com/LeXFReeMan/operatorkit/compare/v4.3.0...v4.3.1
+[4.3.0]: https://github.com/LeXFReeMan/operatorkit/compare/v4.2.0...v4.3.0
+[4.2.0]: https://github.com/LeXFReeMan/operatorkit/compare/v4.1.0...v4.2.0
+[4.1.0]: https://github.com/LeXFReeMan/operatorkit/compare/v4.0.0...v4.1.0
+[4.0.0]: https://github.com/LeXFReeMan/operatorkit/compare/v3.0.0...v4.0.0
+[3.0.0]: https://github.com/LeXFReeMan/operatorkit/compare/v2.0.2...v3.0.0
+[2.0.2]: https://github.com/LeXFReeMan/operatorkit/compare/v2.0.1...v2.0.2
+[2.0.1]: https://github.com/LeXFReeMan/operatorkit/compare/v2.0.0...v2.0.1
+[2.0.0]: https://github.com/LeXFReeMan/operatorkit/compare/v1.2.0...v2.0.0
+[1.2.0]: https://github.com/LeXFReeMan/operatorkit/compare/v1.1.0...v1.2.0
+[1.1.0]: https://github.com/LeXFReeMan/operatorkit/compare/v1.0.2...v1.1.0
+[1.0.2]: https://github.com/LeXFReeMan/operatorkit/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/LeXFReeMan/operatorkit/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/LeXFReeMan/operatorkit/compare/v0.2.1...v1.0.0
+[0.2.1]: https://github.com/LeXFReeMan/operatorkit/compare/v0.2.0...v0.2.1
+[0.2.0]: https://github.com/LeXFReeMan/operatorkit/compare/v0.1.0...v0.2.0
 
-[0.1.0]: https://github.com/giantswarm/operatorkit/releases/tag/v0.1.0
+[0.1.0]: https://github.com/LeXFReeMan/operatorkit/releases/tag/v0.1.0

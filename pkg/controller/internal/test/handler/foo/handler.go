@@ -3,7 +3,7 @@ package foo
 import (
 	"context"
 
-	"github.com/giantswarm/operatorkit/v7/pkg/handler"
+	"github.com/LeXFReeMan/operatorkit/v7/pkg/handler"
 )
 
 type Handler struct{}

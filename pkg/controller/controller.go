@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/giantswarm/backoff"
-	"github.com/giantswarm/k8sclient/v7/pkg/k8sclient"
+	"github.com/LeXFReeMan/k8sclient/v7/pkg/k8sclient"
 	"github.com/giantswarm/microerror"
 	"github.com/giantswarm/micrologger"
 	"github.com/giantswarm/micrologger/loggermeta"
@@ -25,21 +25,22 @@ import (
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"sigs.k8s.io/controller-runtime/pkg/builder"
 	"sigs.k8s.io/controller-runtime/pkg/client"
+	"sigs.k8s.io/controller-runtime/pkg/config"
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 	"sigs.k8s.io/controller-runtime/pkg/event"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 	"sigs.k8s.io/controller-runtime/pkg/predicate"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	"github.com/giantswarm/operatorkit/v7/pkg/controller/collector"
-	"github.com/giantswarm/operatorkit/v7/pkg/controller/context/cachekeycontext"
-	"github.com/giantswarm/operatorkit/v7/pkg/controller/context/finalizerskeptcontext"
-	"github.com/giantswarm/operatorkit/v7/pkg/controller/context/reconciliationcanceledcontext"
-	"github.com/giantswarm/operatorkit/v7/pkg/controller/context/resourcecanceledcontext"
-	"github.com/giantswarm/operatorkit/v7/pkg/controller/context/updateallowedcontext"
-	"github.com/giantswarm/operatorkit/v7/pkg/controller/internal/recorder"
-	"github.com/giantswarm/operatorkit/v7/pkg/controller/internal/sentry"
-	"github.com/giantswarm/operatorkit/v7/pkg/resource"
+	"github.com/LeXFReeMan/operatorkit/v7/pkg/controller/collector"
+	"github.com/LeXFReeMan/operatorkit/v7/pkg/controller/context/cachekeycontext"
+	"github.com/LeXFReeMan/operatorkit/v7/pkg/controller/context/finalizerskeptcontext"
+	"github.com/LeXFReeMan/operatorkit/v7/pkg/controller/context/reconciliationcanceledcontext"
+	"github.com/LeXFReeMan/operatorkit/v7/pkg/controller/context/resourcecanceledcontext"
+	"github.com/LeXFReeMan/operatorkit/v7/pkg/controller/context/updateallowedcontext"
+	"github.com/LeXFReeMan/operatorkit/v7/pkg/controller/internal/recorder"
+	"github.com/LeXFReeMan/operatorkit/v7/pkg/controller/internal/sentry"
+	"github.com/LeXFReeMan/operatorkit/v7/pkg/resource"
 )
 
 const (
@@ -396,7 +397,9 @@ func (c *Controller) bootWithError(ctx context.Context) error {
 			ControllerManagedBy(mgr).
 			For(c.newRuntimeObjectFunc()).
 			WithOptions(controller.Options{
-				MaxConcurrentReconciles: 1,
+				Controller: config.Controller{
+					MaxConcurrentReconciles: 1,
+				},
 				Reconciler:              c,
 			}).
 			WithEventFilter(predicate.Funcs{

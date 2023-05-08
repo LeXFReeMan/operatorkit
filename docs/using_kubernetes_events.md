@@ -15,7 +15,7 @@ occured.
 ### How can events be implemented by an operator?
 
 Operatorkit with version
-[v1.2.0](https://github.com/giantswarm/operatorkit/releases/tag/v1.2.0) or
+[v1.2.0](https://github.com/LeXFReeMan/operatorkit/releases/tag/v1.2.0) or
 higher supports Kubernetes events.
 
 All it takes is to specify a [microerror with a `Kind` and a `Desc`

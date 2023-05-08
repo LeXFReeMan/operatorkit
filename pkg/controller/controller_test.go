@@ -6,14 +6,14 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/giantswarm/k8sclient/v7/pkg/k8sclienttest"
+	"github.com/LeXFReeMan/k8sclient/v7/pkg/k8sclienttest"
 	"github.com/giantswarm/micrologger/microloggertest"
 	"github.com/prometheus/client_golang/prometheus"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/labels"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/giantswarm/operatorkit/v7/pkg/resource"
+	"github.com/LeXFReeMan/operatorkit/v7/pkg/resource"
 )
 
 func Test_Controller_Collector_Register(t *testing.T) {

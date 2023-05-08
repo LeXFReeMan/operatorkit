@@ -14,7 +14,7 @@ operatorkit is Apache 2.0 licensed and accepts contributions via GitHub pull req
 
 ## Reporting Bugs and Creating Issues
 
-Reporting bugs is one of the best ways to contribute. If you find bugs or documentation mistakes in the operatorkit project, please let us know by [opening an issue](https://github.com/giantswarm/operatorkit/issues/new). We treat bugs and mistakes very seriously and believe no issue is too small. Before creating a bug report, please check there that one does not already exist.
+Reporting bugs is one of the best ways to contribute. If you find bugs or documentation mistakes in the operatorkit project, please let us know by [opening an issue](https://github.com/LeXFReeMan/operatorkit/issues/new). We treat bugs and mistakes very seriously and believe no issue is too small. Before creating a bug report, please check there that one does not already exist.
 
 To make your bug report accurate and easy to understand, please try to create bug reports that are:
 
@@ -40,7 +40,7 @@ This is a rough outline of what a contributor's workflow looks like:
 - Make commits of logical units.
 - Make sure your commit messages are in the proper format (see below).
 - Push your changes to a topic branch in your fork of the repository.
-- Submit a pull request to giantswarm/operatorkit.
+- Submit a pull request to LeXFReeMan/operatorkit.
 - Adding unit tests will greatly improve the chance for getting a quick review and your PR accepted.
 - Your PR must receive a LGTM from one maintainer found in the MAINTAINERS file.
 - Before merging your PR be sure to squash all commits into one.

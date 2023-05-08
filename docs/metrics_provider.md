@@ -25,7 +25,7 @@ metrics about e.g. ARM Deployments. These metrics are used for alerting on on
 deployments being in failed state or stuck in upgrading.
 
 In [`operatorkit` we implement a Prometheus
-collector](https://github.com/giantswarm/operatorkit/tree/master/informer/collector)
+collector](https://github.com/LeXFReeMan/operatorkit/tree/master/informer/collector)
 to emit metrics about the creation and deletion timestamps of watched runtime
 objects. These metrics are used for various purposes within our monitoring and
 alerting system. Note that in libraries we combine business logic and metrics

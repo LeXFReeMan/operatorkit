@@ -7,7 +7,7 @@ import (
 	"github.com/giantswarm/microerror"
 	"github.com/giantswarm/micrologger"
 
-	"github.com/giantswarm/operatorkit/v7/pkg/resource"
+	"github.com/LeXFReeMan/operatorkit/v7/pkg/resource"
 )
 
 // WrapConfig is the configuration used to wrap resources with retry resources.

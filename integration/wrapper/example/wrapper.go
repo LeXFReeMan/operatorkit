@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/giantswarm/k8sclient/v7/pkg/k8sclient"
+	"github.com/LeXFReeMan/k8sclient/v7/pkg/k8sclient"
 	"github.com/giantswarm/microerror"
 	"github.com/giantswarm/micrologger"
 	corev1 "k8s.io/api/core/v1"
@@ -17,10 +17,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/yaml"
 
-	v1 "github.com/giantswarm/operatorkit/v7/api/v1"
-	"github.com/giantswarm/operatorkit/v7/integration/env"
-	"github.com/giantswarm/operatorkit/v7/pkg/controller"
-	"github.com/giantswarm/operatorkit/v7/pkg/resource"
+	v1 "github.com/LeXFReeMan/operatorkit/v7/api/v1"
+	"github.com/LeXFReeMan/operatorkit/v7/integration/env"
+	"github.com/LeXFReeMan/operatorkit/v7/pkg/controller"
+	"github.com/LeXFReeMan/operatorkit/v7/pkg/resource"
 )
 
 type Config struct {

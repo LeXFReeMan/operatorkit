@@ -1,4 +1,4 @@
-[![GoDoc](https://godoc.org/github.com/giantswarm/operatorkit?status.svg)](http://godoc.org/github.com/giantswarm/operatorkit) [![CircleCI](https://circleci.com/gh/giantswarm/operatorkit.svg?&style=shield&circle-token=5f7e69042df6538d1e9c7ef0dd1387ca4d7a0d55)](https://circleci.com/gh/giantswarm/operatorkit)
+[![GoDoc](https://godoc.org/github.com/LeXFReeMan/operatorkit?status.svg)](http://godoc.org/github.com/LeXFReeMan/operatorkit) [![CircleCI](https://circleci.com/gh/LeXFReeMan/operatorkit.svg?&style=shield&circle-token=5f7e69042df6538d1e9c7ef0dd1387ca4d7a0d55)](https://circleci.com/gh/LeXFReeMan/operatorkit)
 
 # operatorkit
 
